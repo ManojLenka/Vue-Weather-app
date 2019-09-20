@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Weather Report</title>
+  <style>
+    html,
+    body {
+      padding: 0;
+      margin: 0;
+      font-size: 14px;
+      font-family: sans-serif;
+    }
+
+    .inline-block {
+      display: inline-block;
+    }
+
+    .f-12 {
+      font-size: 12px;
+    }
+
+    .font-2 {
+      font-size: 2em;
+    }
+
+    .font-6 {
+      font-size: 6em;
+    }
+
+    .fw-600 {
+      font-weight: 600;
+    }
+
+    .cover-screen {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    .display-flex {
+      display: flex;
+    }
+
+    .space-between {
+      justify-content: space-between;
+    }
+
+    .space-around {
+      justify-content: space-around;
+    }
+
+    .base-text-color {
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    .align-end {
+      align-self: flex-end;
+    }
+
+    .direction-column {
+      flex-direction: column
+    }
+
+    .align-vertical {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .justify-end {
+      justify-content: flex-end;
+    }
+
+    .justify-align-center {
+      justify-content: center;
+      align-items: center;
+    }
+
+    .overlay {
+      background-color: rgba(44, 93, 105, 0.4);
+    }
+
+    .active,
+    a {
+      color: rgba(0, 32, 51, 1);
+    }
+
+    .p-1 {
+      padding: 1rem;
+    }
+
+    .p-2 {
+      padding: 2rem;
+    }
+
+    .pr-3 {
+      padding-right: 3rem;
+    }
+
+    .pr-2 {
+      padding-right: 2rem;
+    }
+
+    .pt-h5 {
+      padding-top: 0.5rem;
+    }
+
+    .pt-1 {
+      padding-top: 1rem;
+    }
+
+    .pt-2 {
+      padding-top: 2rem;
+    }
+
+    .pb-1 {
+      padding-bottom: 1rem;
+    }
+
+    .pb-2 {
+      padding-bottom: 2rem;
+    }
+
+    .p-l-r {
+      padding: 0.6rem 1rem;
+    }
+
+    .mt-1 {
+      margin-top: 1rem;
+    }
+
+    .mb-1 {
+      margin-bottom: 1rem;
+    }
+
+    .transparent-btn {
+      background-color: transparent;
+      border: 0;
+      cursor: pointer;
+      outline: none;
+    }
+
+    .day-details {
+      text-transform: uppercase;
+    }
+
+    .vue-notification .notification-title {
+      font-size: 16px;
+      padding-bottom: 8px;
+    }
+
+    .vue-notification .notification-content {
+      font-size: 14px; 
+    }
+
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background-color: rgba(162, 182, 187, 0.2);
+      border-radius: 6px;
+      -webkit-border-radius: 0.4rem;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      border-radius: 0.4rem;
+      background-color: rgba(255, 255, 255, 0.9);
+      -webkit-border-radius: 6px;
+    }
+  </style>
+</head>
+
+<body class='cover-screen'>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>
