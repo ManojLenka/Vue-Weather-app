@@ -1,6 +1,6 @@
-# registration-app
+# Weather-app
 
-> Simple test app
+> Vue weather app
 
 ## Build Setup
 
